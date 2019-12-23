@@ -1,0 +1,24 @@
+/* 
+    Document   : login.css
+    Created on : 2015-4-22, 17:01:38
+    Author     : Shine
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#login-modal .modal-dialog {
+    width: 450px;
+    top:100px;
+align:center;
+}
+body{
+    margin: 0;
+    background-image: url(../img/loginbg.jpg);
+
+     background-color: #f5f6f7;
+}
+h4{
+    
+     text-align:center;
+     font-size: 21px;
+     font-weight: bold;
+}

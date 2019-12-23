@@ -1,0 +1,76 @@
+        .xuanzqiebx{min-height:300px}
+        .yusejine{font-size: 16px}
+        .yusejine .mabx:hover{bottom: 7px;}
+        .duoinpts{height: 26px; font-size: 14px; font-weight: bold}
+        .shushubx{display: inline-block; float: left; margin-left: 10px; margin-right: 3px;}
+        .billrec{float: right; margin-left: 15px; margin-top: 3px}
+        .jiezhirq .lanse{font-size: 16px}
+        .fwbext{float:left; margin-top: 3px}
+        .mt3{margin-top: 3px} .mt8{margin-top: 8px}
+        .ml0{margin-left: 0px} .ml10{margin-left: 10px} .ml15{margin-left: 15px}
+        .trsel td:hover{background-color: #F9BF07}
+        .mabx {float: left; width: 46px; height: 46px; background-image: url(/skin/img/choma.png); 
+               display: none; margin-right: 5px; position: relative;}
+        .mabx.pss {position:absolute;}
+        .mabx.curx{bottom: 3px;}
+        .mabx.cur{display:block;}
+        .mabx1{background-position: 0px 0px;}
+        .mabx2{background-position: -50px 0px;}
+        .mabx3{background-position: -100px 0px;}
+        .mabx4{background-position: -150px 0px;}
+        .mabx5{background-position: -200px 0px;}
+        .mabx6{background-position: -250px 0px;}
+        .mabx7{background-position: -300px 0px;}
+        .mabx8{background-position: -350px 0px;}
+        .mabx9{background-position: -400px 0px;}
+        .mabx10{background-position: -450px 0px;}
+        .hiskjhm {padding-left: 2px}
+        .shushubx-fl div{margin-left: 14px}
+        .duotable-liuhca-bx {width: 260px}
+        .duotable-liuhca-bx {padding-left: 2px}
+        .hiskjhm .f12{font-size: 14px; font-weight: bold; }
+        .sxt{float:left; margin-left: 15px;margin-right: 5px}
+        .duotable-liuhca .shumna-0,.duotable-liuhca .shumna-1,.duotable-liuhca .shumna-6{background: url(/Resource/common/images/lhcna.png) no-repeat 0px 0px;}
+        .duotable-liuhca .shumna-2,.duotable-liuhca .shumna-3{background: url(/Resource/common/images/lhcna.png) no-repeat 0px -54px;}
+        .duotable-liuhca .shumna-4,.duotable-liuhca .shumna-5{background: url(/Resource/common/images/lhcna.png) no-repeat 0px -108px;}
+   .yusjinse{
+	border:1px solid #cccccc;
+	border-radius:3px;
+	width: 205px;
+	height:26px;
+	line-height:26px;
+	padding-left:5px;
+}
+.skin_red .quedchongz{
+	display: inline-block;
+    width: 64px;
+    height: 25px;
+    line-height: 25px;
+    background: linear-gradient(to bottom, #D87C86 0%,#6A1F2D 100%);
+    border: 1px solid #AB374A;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+}
+.skin_red .quedchongz:hover {
+    color: #f98d5c;
+}
+.skin_blue .quedchongz{
+	display: inline-block;
+    width: 64px;
+    height: 25px;
+    line-height: 25px;
+	background: linear-gradient(to bottom, #5b8ac7 0%, #2765b5 100%);
+    border: 1px solid #1e57a0;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+}
+.skin_blue .quedchongz:hover {
+    color: #f98d5c;
+}
+.yusjinse-wa{
+	/* float:left; */
+	margin-left:22px;
+	padding-left:10px;
+}

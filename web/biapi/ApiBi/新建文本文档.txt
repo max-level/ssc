@@ -1,0 +1,7 @@
+	protected $key='x8#&gf-9';                                     //站点秘钥
+	
+	protected $WebSiteCode='c5bf4ac6-1962-4ae5-aaae-dc6d2a9adde8'; //站点code
+	
+	protected $password='aabb1122'; 								//站点用户密码
+	
+	protected $biUrl = 'api.gebbs.net';

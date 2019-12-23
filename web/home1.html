@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html>
+<!--SCRIPT>alert('源码出处来自WWW.PHP85.COM！');</SCRIPT-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+ <title><?=$this->settings['webName']?>官方番摊直营信誉平台</title>
+
+<link type="text/css" rel="stylesheet" href="skin/css/basic.css" />
+<link rel="stylesheet" type="text/css" href="/skin/home/css/index.css">
+<script type="text/javascript" src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" ></script>
+<script type="text/javascript" src="/skin/main/onload.js"></script>
+<script type="text/javascript" src="/skin/main/reglogin.js"></script>
+<script type="text/javascript" src="/skin/js/guest.js"></script>
+<script type="text/javascript" src="/skin/layer/layer.js"></script>
+<script src="/skin/home/js/index.js"></script>
+
+<script src="/skin/SweetAlert/sweetalert.min.js"></script>
+<link href="/skin/SweetAlert/sweetalert.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<script language="javascript">
+
+</script>
+<?php
+if(!$_SESSION['from']){
+	if($_GET['from'] == 'm'){
+		session_start;
+		$_SESSION['from']=$_GET['from'];
+	}else{
+		echo '<script type="text/javascript">browserRedirect();</script>';
+	}
+}
+?>	
+
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/favicon.ico" /><meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <link rel="stylesheet" href="css/core.css">
+<div class="header">
+    <div class="inner clearfix">
+        <div class="logo fl">
+            <a href="#" target="_blank"><img src="img/logo.png" width="220" alt="" ></a>
+        </div>
+        <ul class="nav fr" id="nav">
+            <li><a href="/">网站首页</a></li>
+            <li><a href="reg">开户注册</a></li>
+            <li><a href="at1">优惠活动</a><span class="hot"><img src="img/hot.png" alt="" /></span></li>
+            <li><a href="at2">存款取款</a></li>
+            <li><a href="at2">常见问题</a></li>
+            <li><a href="javascript:;" onclick="window.open('https://ssl.pop800.com/chat/147263');" target="_blank">在线客服</a></li>
+            <li><a href="javascript:;" onclick="window.open('https://ssl.pop800.com/chat/147263');" target="_blank">加盟合作</a></li>
+			<li><a href="agent">代理登录</a></li>
+        </ul>
+    </div>
+</div>
+
+    <div class="banner-index">
+        <div class="inner">
+            <div class="radio clearfix">
+                <span class="fl">
+                    <img src="img/new.png" alt="" />
+                </span>
+                <div class="radiomain" id="notice">
+			<strong style="color:red;"><marquee id="noticeDiv" direction="left" scrollamount="4" onMouseOver="this.stop()" onMouseOut="this.start()" style="color:red;"><?=$this->settings['webName']?>
+				</strong>
+				—国内知名博彩平台！至今会员5万余人’拥有港澳台百位股东强力加盟并巨资打造，集广东番摊，百家乐，龙虎斗,北京赛车、重庆时时彩、秒速时时彩，11选5以及快三等几十种彩票游戏于一体的现金网娱乐平台、是目前市面上存玩法齐全最全面的现金娱乐平台,多年的运营信誉口碑与服务已获得了众多广大彩民的喜爱！公司将搭乘“诚信为本，合作共赢”的经营理念，利景在您的选择下成为国内领先的互联网信誉彩票平台。
+</marquee></strong>
+				</div>
+            </div>
+			<div class="lbbox" id="lb_box">
+                <ul>
+                    <li><a href="#"><img src="img/lb/lun0.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/lb/lun1.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/lb/lun2.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/lb/lun3.png" alt=""></a></li>
+                </ul>
+            </div>
+			
+<!--link rel="stylesheet" href="/skin/lunbo/skippr.css">
+<script src="/skin/lunbo/skippr.js"></script>
+<div class="banner">
+	<div class="mainbanner_window">
+		<ul id="slideContainer">
+			<li><a href="#"><img src="/skin/lunbo/1.jpg"/></a></li>
+			<li><a href="#"><img src="/skin/lunbo/2.jpg"/></a></li>
+			<li><a href="#"><img src="/skin/lunbo/3.jpg"/></a></li>
+			<li><a href="#"><img src="/skin/lunbo/4.jpg"/></a></li>
+			<li><a href="#"><img src="/skin/lunbo/5.jpg"/></a></li>
+			<li><a href="#"><img src="/skin/lunbo/6.jpg"/></a></li>
+		</ul>
+	</div>
+	<ul class="mainbanner_list">
+		<li><a href="javascript:void(0);">1</a></li>
+		<li><a href="javascript:void(0);">2</a></li>
+		<li><a href="javascript:void(0);">3</a></li>
+		<li><a href="javascript:void(0);">4</a></li>
+		<li><a href="javascript:void(0);">5</a></li>
+		<li><a href="javascript:void(0);">6</a></li>
+	</ul>
+</div-->			
+ 
+            <div class="lgbox">
+                <div class="wrap">
+                    <div class="tit">
+                        <span>用户登陆</span>
+			<a href="javascript:;" onclick="window.open('https://ssl.pop800.com/chat/147263');" target="_blank"><img src="img/kf.png" alt="" /></a>
+                    </div>
+					<form action="/user/loginedto" method="post" onajax="userBeforeLoginto" enter="true" call="userLoginto" target="ajax">	
+					    <input type="text" value="" maxlength="15" placeholder="请输入账号" name="username" id="username">
+						<input type="password" value="" maxlength="20" placeholder="请输入密码" name="password" id="password">
+                        <input type="submit" value="">
+                        <a href="reg" class="reg"><img src="img/zhu.png" alt="" /></a>
+                    </form>
+					 <a href="javascript:guestLogin();" class="try"><img src="img/can.png" alt="" /></a>
+					 
+			<button type="button" id="btn-register" class="btn btn-red" title=""><strong style="color:#ffffff;">其它登录:</strong>
+			<!--hr style="height:1px;border:none;border-top:1px solid #555555;" /--></button>
+			
+					
+
+                    <button type="button" class="qq" ><img alt="" src="skin/images/login_qq.png" width="32" height="32">
+                <!--hr style="height:1px;border:none;border-top:1px dashed #0066CC;" /-->
+				    <button type="button" class="wx" ><img  alt=""src="skin/images/login_wx.png" width="32" height="32">
+					
+					<button type="button" class="wb" ><img  alt=""src="skin/images/login_wb.png" width="32" height="32" >
+					
+				
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner end -->
+    <div class="gamebox">
+        <div class="inner">
+            <ul class="clearfix">
+                <li>
+                    <a href="javascript:alert('请先登录');" target="_blank"><img src="img/in1.jpg" alt="" />
+                        <div class="quan"><img src="img/qq.png" alt="" /></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:alert('请先登录');" target="_blank"><img src="img/in2.jpg" alt="" />
+                        <div class="quan"><img src="img/qq.png" alt="" /></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:alert('请先登录');" target="_blank"><img src="img/in3.jpg" alt="" />
+                        <div class="quan"><img src="img/qq.png" alt="" /></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:alert('请先登录');" target="_blank"><img src="img/in4.jpg" alt="" />
+                        <div class="quan"><img src="img/qq.png" alt="" /></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:alert('请先登录');" target="_blank"><img src="img/in5.jpg" alt="" />
+                        <div class="quan"><img src="img/qq.png" alt="" /></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:alert('请先登录');" target="_blank"><img src="img/in6.jpg" alt="" />
+                        <div class="quan"><img src="img/qq.png" alt="" /></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:alert('请先登录');" target="_blank"><img src="img/in7.jpg" alt="" />
+                        <div class="quan"><img src="img/qq.png" alt="" /></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="info1">
+        <div class="inner clearfix">
+            <div class="fl"><img src="img/ys1.jpg" alt="" /></div>
+            <div class="fl"><img src="img/ys2.jpg" alt="" /></div>
+            <div class="fl"><img src="img/ys3.jpg" alt="" /></div>
+        </div>
+    </div>
+    <div class="info2">
+        <div class="inner clearfix">
+            <div class="fl"><img src="img/ys4.jpg" alt="" /></div>
+            <div class="fl"><img src="img/ys5.jpg" alt="" /></div>
+            <div class="fl"><img src="img/ys6.jpg" alt="" /></div>
+        </div>
+    </div>
+
+<div class="footer">
+    ©2013-2018归 <?=$this->settings['webName']?> 版权所有All Rights Reserved.
+</div>
+ </div>
+    </div>
+<!-- footer end-->
+
+    <!--div class="float" id="float">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=591595597&site=qq&menu=yes" target="_blank"><img src="img/float/bf.png" alt=""></a>
+    <span class="close"></span>
+</div>
+    <link type="text/css" href="/static/lib/remodal-1.1.0/remodal.min.css" rel="stylesheet" />
+<div class="remodal" data-remodal-id="modal" role="dialog" aria-describedby="modal1Desc" data-remodal-options="hashTracking: false" style="width: 250px">
+    <div>
+        <p id="modal1Desc" style="color: #000"></p>
+        <span class="btnclose">关闭</span>
+    </div>
+</div>
+
+<script src="js/home_main.min.js"></script>
+
+    <script src="/static/lib/unslider.min.js"></script>
+    <script src="/static/lib/float.min.js"></script>
+    <script src="js/core.js"></script>
+    <!--div class="hide">
+        <script language="javascript" type="text/javascript" src="//js.users.51.la/19313815.js"></script>
+        <noscript><a href="//www.51.la/?19313815 " target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="//img.users.51.la/19313815.asp" style="border:none" /></a></noscript>
+    </div-->
+</body>

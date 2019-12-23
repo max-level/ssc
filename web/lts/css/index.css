@@ -1,0 +1,4 @@
+/* qq-client */
+.qq-client{position:fixed;right:0px;top:50%;margin-top:-80px;z-index:999;}
+.qq-client-content{position:fixed;right:-368px;height:100%;bottom:30px;border:#ffffff solid 0px;width:310px;
+}

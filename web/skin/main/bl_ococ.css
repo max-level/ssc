@@ -1,0 +1,123 @@
+.educhange {
+    padding: 16px 16px;
+}
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: STHeiti,Arial,"Microsoft Yahei","Hiragino Sans GB","Simsun,sans-self";
+}
+.l36 {
+    line-height: 36px;
+}
+.f12 {
+    font-size: 12px;
+}
+.fl {
+    float: left;
+}
+.co666 {
+    color: #666;
+}
+.pl5 {
+    padding-left: 5px;
+}
+.pl18 {
+    padding-left: 18px;
+}
+.btngroup input{
+    padding: 5px 0px;
+    border: 1px solid #dee1e2;
+    border-radius: 3px;
+    position: relative;
+    background: #fff;
+}
+.cl {
+   border-radius: 3px;
+}
+.btngroup .btn-item.br0 {
+    border: none;
+}
+input.btn-item {
+    font-size: 12px;
+}
+.tal {
+    text-align: left;
+}
+
+.fr {
+    float: left;
+	margin-left: 20px;
+}
+.buybtn {
+    background: #196ee8;
+    border: 2px solid #196ee8;
+	    width: 96px;
+    line-height: 33px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+	float: left;
+}
+.tjbtn {
+    background: #196ee8;
+    border: 2px solid #196ee8;
+	    width: 96px;
+    line-height: 33px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+	float: left;
+}
+.pagemain {
+    margin-bottom: 13px;
+    padding: 5px 5px 5px 5px;
+    width: 916px;
+    border: 0px solid #ecebeb;
+    background: #fff;
+    font-size: 15px;
+    font-family: '微软雅黑';
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cl {
+    clear: both;
+}
+.h2 {
+    height: 2px;
+}
+.pl10 {
+    padding-left: 10px;
+}
+.pr13 {
+    padding-right: 13px;
+}
+.pl15 {
+    padding-left: 13px;
+}
+
+
+.vertical-align-middle {
+    vertical-align: middle;
+}
+.page-login .login-form {
+    width: 350px;
+    margin: 45px 0 20px;
+}
+
+.vertical-align-bottom, .vertical-align-middle {
+    display: inline-block;
+    max-width: 100%;
+    font-size: 14px;
+}
+.login-form {
+    width: 350px;
+    margin: 45px 0 20px;
+}
+.form-group {
+    margin-bottom: 12px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="dist/bundles/index.css?version=2.17.1">
+    <style>
+        .spinner {
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+        }
+
+        .spinner .three-bounce {
+            position: relative;
+            text-align: center;
+            top: 50%;
+            bottom: 50%;
+            margin-top: -9px
+        }
+
+        .spinner .three-bounce>div {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            border-radius: 100%;
+            top: 50%;
+            margin-top: -9px;
+            background: #aeadba;
+            -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+            animation: bouncedelay 1.4s infinite ease-in-out;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both
+        }
+
+        .spinner .three-bounce .one {
+            -webkit-animation-delay: -.32s;
+            animation-delay: -.32s;
+            background: rgb(55,137,250);
+        }
+
+        .spinner .three-bounce .two {
+            -webkit-animation-delay: -.16s;
+            animation-delay: -.16s;
+            background: rgb(99,99,99);
+        }
+
+        .spinner .three-bounce .three {
+            background: rgb(235,67,70);
+        }
+
+        @keyframes bouncedelay {
+            0%,100%,80% {
+                transform: scale(0);
+                -webkit-transform: scale(0)
+            }
+
+            40% {
+                transform: scale(1);
+                -webkit-transform: scale(1)
+            }
+        }
+        body, html {
+            height: 100%;
+        }
+        .chat {
+            background-size: 100% auto !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="appLoading" class="bet-loading" style="position: fixed; width:100%; top: 200px; text-align: center;">
+            <div class="spinner"><div class="three-bounce"><div class="one"></div><div class="two"></div><div class="three"></div></div></div>
+    </div>
+    <div id="app"></div>
+    <script src="dist/steal.production.js" env="production" main="chat" cache-version="2.17.1"></script>
+</body>
+</html>

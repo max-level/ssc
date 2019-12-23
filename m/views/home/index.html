@@ -1,0 +1,232 @@
+
+<ion-view class="m-index" view-title="">
+  	<ion-nav-buttons side="left">
+    	<a class="logo" href="#/home"><img ng-src="{{appConfig.logoUrl}}"></a>
+  	</ion-nav-buttons>
+  	
+	<ion-nav-buttons side="right">
+    	<span ng-if="isLogin">
+	  		<a class="user-button" href="#/ucenter/index"><span class="span-user">{{My.getUserName()}}</span></a>
+    		<a class="button ry-button" ng-click="logout();">退出</a>
+    		    		
+  		</span>
+  		
+  		<span ng-if="inited && !isLogin">
+		<!--a class="button ry-button mr-5" href="#/">QQ登录</a-->
+  			<a class="button ry-button mr-5" href="user/login">登录</a>
+  			<a class="button ry-button mr-5" href="user/register">注册</a>
+  			<a class="button ry-button" ng-click="guestLogin();">试玩</a>
+  		</span>
+  		<ion-spinner ng-show="!inited" class="spinner topinfo-spinner"></ion-spinner>
+  		
+  	</ion-nav-buttons>
+	  	
+  	<ion-content>
+	   	<ion-slide-box delegate-handle="home-handle" auto-play="true" does-continue="true" slide-interval="3000">
+		    <ion-slide ng-repeat="url in slideList"><img ng-src="./images/slide/zc/m1.jpg" /></ion-slide>
+		    <ion-slide ng-repeat="url in slideList"><img ng-src="./images/slide/zc/m2.jpg" /></ion-slide>
+		    <ion-slide ng-repeat="url in slideList"><img ng-src="./images/slide/zc/m3.jpg" /></ion-slide>
+		    <ion-slide ng-repeat="url in slideList"><img ng-src="./images/slide/zc/m4.jpg" /></ion-slide>
+		</ion-slide-box>
+		
+		<div class="row notice">
+			<div class="col col-10 notice-icon"></div>
+			<div class="col col-90 notice-content">
+				<zl-notice></zl-notice>
+			</div>
+		</div>
+		
+
+		
+		<div class="gamelist">
+			<div class="title"><img src="./images/index/icon-game.png">热门游戏</div>
+			<div class="row">
+				<div class="col col-33">
+					<div class="gamebox">
+					    <a href="#/lottery/index/72">
+							<img src="./images/index/g_mssc.png">
+							<p>极速赛车</p>
+						</a>						
+					</div>
+				</div><div class="col col-33">
+					<div class="gamebox">
+						<a href="#/lottery/index/73">
+							<img src="./images/index/g-msssc.png">
+							<p>极速时时彩</p>
+						</a> 
+					</div>					
+				</div><div class="col col-33">
+					<div class="gamebox">
+						<a href="#/lottery/index/55">
+							<img src="./images/index/g-msft.png">
+							<p>幸运飞艇</p>
+						</a> 
+					</div>					
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="col col-33">
+					<!--div class="gamebox">
+						<a href="#/lottery/index/2">
+							<img src="./images/index/g-zqjc.png">
+							<p>足球竞猜</p>
+						</a>
+					</div>	
+				</div><div class="col col-33"-->
+					<div class="gamebox">
+						<a href="#/lottery/index/52">
+							<img src="./images/index/g-msft.png">
+							<p>极速飞艇</p>
+						</a>
+					</div>
+				</div><div class="col col-33">
+				
+					<!--div class="gamebox">
+						<a href="#/lottery/index/58">
+							<img src="./images/index/g-pk10nn.png">
+							<p>秒速牛牛</p>
+						</a>
+					</div>		
+				</div><div class="col col-33">
+					<div class="gamebox">
+						<a href="#/lottery/index/59">
+							<img src="./images/index/g-mspk10nn.png">
+							<p>秒速牛牛</p>
+						</a>
+					</div>	
+				
+				</div><div class="col col-33"-->
+					<div class="gamebox">
+					    <a href="#/lottery/index/50">
+							<img src="./images/index/g-bjpk10.png">
+							<p>北京赛车</p>
+						</a>						
+					</div>	
+				</div><div class="col col-33">
+					<div class="gamebox">
+						<a href="#/lottery/index/1">
+							<img src="./images/index/ssc.png">
+							<p>重庆时时彩</p>
+						</a>
+					</div>
+				</div><div class="col col-33">
+					<div class="gamebox">
+						<a href="#/lottery/index/66">
+							<img src="./images/index/g-pcdd.png">
+							<p>PC蛋蛋</p>
+						</a>
+					</div>	
+				</div><!--div class="col col-33">
+					<div class="gamebox">
+						<a href="#/lottery/index/1">
+							<img src="./images/index/k3.png">
+							<p>江苏快3</p>
+						</a>
+					</div>
+					
+					
+				</div--><!--div class="col col-33">
+					<div class="gamebox">
+						<a href="#/lottery/index/60">
+							<img src="./images/index/klsf.png">
+							<p>快乐十分</p>
+						</a>
+					</div>
+				</div--><div class="col col-33">
+					<div class="gamebox">
+						<a href="#/lottery/index/81">
+							<img src="./images/index/g-hkc.png">
+							<p>腾讯分分彩</p>
+						</a>
+					</div>
+					</div><!--div class="col col-33">
+					<div class="gamebox">
+						<a href="#/lottery/index/120">
+							<img src="./images/index/img05.png">
+							<p>新疆时时彩</p>
+						</a>
+					</div>
+				</div--><div class="col col-33">
+					<div class="gamebox">
+						<a href="#/lottery/list">
+							<img src="./images/index/g-hfc.png">
+							<p>更多彩票</p>
+						</a> 
+					</div>
+				</div><div class="col col-33">
+					<div class="gamebox">
+						<a target="_blank" ng-href="{{webUrl}}?from=m">
+							<img src="./images/index/g-computer.png">
+							<p>电脑版</p>
+						</a>
+					</div>	
+
+				</div><div class="col col-33">
+					<div class="gamebox">
+						<a href="https://fen.ffddm.com/js.php/MTg=" target="_blank">
+						<img src="./images/index/app_down.png">
+						
+							<p>APP下载</p>
+						</a>
+					</div>
+				</div><div class="col col-33">
+					<div ng-if="!isLogin" class="gamebox">
+						<a ng-click="guestLogin();">
+							<img src="./images/index/g-try.png">
+							<p>免费试玩</p>
+						</a>
+					</div>	
+					</div><div class="col col-33">
+					<div class="gamebox">
+						<a target="_blank" ng-href="{{appConfig.zxkfUrl}}">
+							<img src="./images/index/menu-service.png">
+							<p>在线客服</p>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<!-- 热门游戏 END -->
+		
+		<!-- 优惠活动 BEGIN -->
+		<div class="activity">
+			<div class="head">
+				<div class="title"><img src="./images/icon-activity.png">优惠活动</div>
+				<a href="#/activity">更多&gt;&gt;</a>
+			</div>
+
+			<div class="activity-list">
+
+				<a href="/user/login"><p>每日抽奖</p><img src="/cj/images/4.jpg"></a>
+				<!--a href="#"><p>快乐彩周周返水</p><img src="./images/activity/2.jpg"></a>
+				<a href="#"><p>玛雅吧普通会员返水</p><img src="./images/activity/3.png"></a-->
+				<!--a href="/cj/phpcj.php"></p>每日一抽</p><img src="/cj/images/5.jpg"></a-->
+				<!--a href="/cj/1.html"><p>邀请好友得彩金</p><img src="/cj/images/6.jpg"></a-->
+			</div>
+		</div>
+		
+	
+		
+		<div class="copyright">
+			<!-- <a class="computer" target="_blank" ng-href="{{appConfig.webUrl}}">电脑版</a> -->
+			<p>{{appConfig.copyright}}</p>
+		</div>
+  	</ion-content>
+  	
+	<ion-footer-bar class="max">
+		<ion-tabs class="tabs-icon-top tabs-light"> 
+			<ion-tab title="首页" icon-off="icon-home" icon-on="icon-home" href="#/home"></ion-tab>
+			<ion-tab title="游戏大厅" icon-off="icon-youxi" icon-on="icon-youxi" href="#/lottery/list"></ion-tab>
+			<ion-tab title="资金管理" icon-off="icon-29" icon-on="icon-29" href="#/bank/deposit"></ion-tab>
+			<ion-tab title="我的" icon-off="icon-yonghu" icon-on="icon-yonghu" href="#/ucenter/index"></ion-tab>
+		</ion-tabs>
+	</ion-footer-bar>
+</ion-view>

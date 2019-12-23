@@ -1,0 +1,75 @@
+.com { color: #93a1a1; }
+.lit { color: #195f91; }
+.pun, .opn, .clo { color: #93a1a1; }
+.fun { color: #dc322f; }
+.str, .atv { color: #D14; }
+.kwd, .linenums .tag { color: #1e347b; }
+.typ, .atn, .dec, .var { color: teal; }
+.pln { color: #48484c; }
+
+.prettyprint {
+  padding: 8px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+	margin-top:8px;
+}
+.prettyprint.linenums {
+  -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+     -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+          box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin: 0 0 0 33px; /* IE indents via margin-left */
+} 
+ol.linenums li {
+  padding-left: 12px;
+  color: #bebec5;
+  line-height: 18px;
+  text-shadow: 0 1px 0 #fff;
+}
+ p {	margin:0;	padding:0}
+p#vtip {position: absolute;display:none; padding: 6px;  font-size: 12px;font-family:Tahoma; background-color: #000;color:#eee; border: 1px solid #000; -moz-border-radius: 3px;filter:alpha(opacity=80);opacity:0.8;-Moz-Opacity: 0.8; -webkit-border-radius: 3px; z-index: 9999;box-shadow: 1px 1px 1px rgba(0,0,0,0.3);}
+p#vtip #vtipArrow { position: absolute; top: -6px; left: 5px ;border-bottom: 5px solid #000;border-right: 5px dashed transparent;border-left: 5px dashed transparent;}
+
+.i_help {
+width: 16px;
+height: 16px;
+display: inline-block;
+background: url(../img/i_help.png) 0 -16px no-repeat;
+vertical-align: middle;
+font-size: 0;
+}
+a:hover .i_help{background-position: 0 0;}
+.guide_title{  font-size: 13px;font-weight: 300;font-family: 微软雅黑, Verdana, Helvetica, Sans-Serif;border-bottom: 1px solid #ddd;height: 36px;line-height: 36px;padding-left: 20px;}
+.icon-cancel-chong {
+  width: 20px;
+    height: 21px;
+    border: 0;
+    margin: 0 3px;
+    background: transparent url(../img/chong.png) center bottom no-repeat;
+    outline:none;
+    cursor:pointer;
+}
+.icon-cancel-tixian {
+  width: 20px;
+    height: 21px;
+    border: 0;
+    margin: 0 3px;
+    background: transparent url(../img/tixian.png) center bottom no-repeat;
+    outline:none;
+    cursor:pointer;
+}
+.m-table-th-bg td {
+    background-color: #f7f8fa;
+}
+.table-bordered thead tr:last-child td {
+    border-bottom: 0px;
+}
+.run-status-running{
+        color: #090;
+}
+.run-status-expired{
+    color: #F00;
+}

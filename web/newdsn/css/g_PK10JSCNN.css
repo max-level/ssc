@@ -1,0 +1,699 @@
+@CHARSET "UTF-8";
+
+
+#drawTable .page_info {
+    width: 691px;
+}
+
+#drawInfo .LH_L {
+    color: #2836F4;
+}
+
+#resultPanel {
+    margin-bottom: 15px;
+}
+
+#resultPanel table {
+    width: 829px!important;
+}
+
+.split_panel .amount{
+    width: 65px;
+}
+
+.split_panel .name {
+  width: 25px;
+}
+
+.split_panel {
+    float: none;
+}
+
+.split_panel table {
+    float: left;
+    width: 163px;
+    margin: 10px 2.25px 0 0;
+}
+
+.table_ball .ballname {
+    width: 27px;
+}
+
+.table_ball .ballodds {
+    width: 79px;
+}
+
+.table_gy .name {
+    font-weight: bold;
+}
+
+.lottery_info .name,#header .result {
+    height: 24px;
+    line-height: 24px;
+}
+
+#drawInfo .draw_number{
+    height: auto;
+    line-height: inherit;
+    margin-right: 3px;
+}
+
+.table_ball .name span,#drawInfo .balls b {
+    background: url("images/ball-pk.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 0 1px;
+    font-size: 0px;
+    text-indent: -99999px;
+    display: inline-block;
+}
+
+#drawInfo .balls b {
+    background: url("images/ball-pk.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 0 1px;
+    margin-top: 6px;
+}
+
+.table_ball .name .b1,#drawInfo .balls .b1 {
+    background-position: 0 0;
+}
+
+.table_ball .name .b2,#drawInfo .balls .b2 {
+    background-position: 0 -21px;
+}
+
+.table_ball .name .b3,#drawInfo .balls .b3 {
+    background-position: 0 -42px;
+}
+
+.table_ball .name .b4,#drawInfo .balls .b4 {
+    background-position: 0 -63px;
+}
+
+.table_ball .name .b5,#drawInfo .balls .b5 {
+    background-position: 0 -84px;
+}
+
+.table_ball .name .b6,#drawInfo .balls .b6 {
+    background-position: 0 -105px;
+}
+
+.table_ball .name .b7,#drawInfo .balls .b7 {
+    background-position: 0 -126px;
+}
+
+.table_ball .name .b8,#drawInfo .balls .b8 {
+    background-position: 0 -147px;
+}
+
+.table_ball .name .b9,#drawInfo .balls .b9 {
+    background-position: 0 -168px;
+}
+
+.table_ball .name .b10,#drawInfo .balls .b10 {
+    background-position: 0 -189px;
+}
+
+.result_button {
+    cursor:pointer;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.num_button {
+    float:left;
+    margin-right: 4px;
+    width:40px;
+}
+.gylh_button {
+    width:70px;
+}
+.result_button:hover {
+    background-color:#2161b3;
+    color:white;
+}
+
+.table_ball .big_small span, .table_ball .odd_even span {
+    background: url("images/ball-bs.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 0 1px;
+    font-size: 0px;
+    text-indent: -99999px;
+    display: inline-block;
+}
+
+.table_ball .big_small .b1, .table_ball .big_small .b2, .table_ball .big_small .b3, .table_ball .big_small .b4, .table_ball .big_small .b5 {
+    background-position: 0 -21px;
+}
+
+.table_ball .big_small .b6, .table_ball .big_small .b7, .table_ball .big_small .b8, .table_ball .big_small .b9, .table_ball .big_small .b10 {
+    background-position: 0 0;
+}
+
+.table_ball .odd_even .b1, .table_ball .odd_even .b3, .table_ball .odd_even .b5, .table_ball .odd_even .b7, .table_ball .odd_even .b9 {
+    background-position: 0 -63px;
+}
+
+.table_ball .odd_even .b2, .table_ball .odd_even .b4, .table_ball .odd_even .b6, .table_ball .odd_even .b8, .table_ball .odd_even .b10 {
+    background-position: 0 -42px;
+}
+
+/*NN*/
+.niuniu-wrapper{
+    height: 130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.niuniu-wrapper .item-wrapper{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 calc(100% / 6);
+    flex: 1 1 calc(100% / 6);
+}
+
+.item-wrapper.win{
+    background-color: #f7f1af;
+}
+
+.poker-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    width: 110px;
+    position: relative;
+}
+
+.poker-wrapper .poker{
+    width: 30px;
+    height: 40px;
+    border-radius: 6px;
+    -webkit-transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1), opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1), opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1), opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    opacity: 0;
+     -webkit-box-shadow: 0 4px 10px rgba(55,55,55,0.7); 
+     box-shadow: 0 4px 10px rgba(55,55,55,0.7); 
+    background-image: url(/default/images/nn/poker.png);
+    background-size: 400% 1300%;
+    overflow: visible !important;
+}
+
+.poker-wrapper.win:not(.mini):before{
+    content: '';
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    background: url(/default/images/nn/win.png) center / contain no-repeat;
+    top: -23px;
+    right: -23px;
+    z-index: 1;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+}
+
+.poker-wrapper.show .poker{
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.poker-wrapper .poker:not(:first-child){
+    margin-left: -8px;
+}
+
+.poker-wrapper .poker:nth-child(1){
+    -webkit-transition-delay: 0ms;
+    -o-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+.poker-wrapper .poker:nth-child(2){
+    -webkit-transition-delay: 100ms;
+    -o-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+.poker-wrapper .poker:nth-child(3){
+    -webkit-transition-delay: 200ms;
+    -o-transition-delay: 200ms;
+    transition-delay: 200ms;
+}
+.poker-wrapper .poker:nth-child(4){
+    -webkit-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+.poker-wrapper .poker:nth-child(5){
+    -webkit-transition-delay: 400ms;
+    -o-transition-delay: 400ms;
+    transition-delay: 400ms;
+}
+
+.poker-info{
+    width: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 20px auto 0;
+}
+
+.poker-info .two-hands{
+    height: 24px;
+    width: 48px;
+    border-radius: 48px;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.poker-info .two-hands.banker{
+    background-color: #db0001;
+}
+
+.poker-info .two-hands.player{
+    background-color: #2e69a9;
+}
+
+.poker-info .game-info{
+    width: 60px;
+    height: 37px;
+    margin-left: auto;
+    background-size: 60px 408px;
+    background-position: center;
+    background-image: url(/default/images/nn/niu_lose.png);
+}
+
+.poker-info.center{
+    margin: 0 auto; 
+}
+
+.poker-info.center .game-info{
+    margin: auto;
+}
+
+.poker-wrapper.win + .poker-info .game-info,
+.item-wrapper.win .poker-info .game-info{
+    background-image: url(/default/images/nn/niu_win.png);
+}
+
+.poker-info .game-info.niu-0{
+    background-position: 0px 0px;
+}
+
+.poker-info .game-info.niu-1{
+    background-position: 0px -37px;
+}
+
+.poker-info .game-info.niu-2{
+    background-position: 0px -74px;
+}
+
+.poker-info .game-info.niu-3{
+    background-position: 0px -111px;
+}
+
+.poker-info .game-info.niu-4{
+    background-position: 0px -148px;
+}
+
+.poker-info .game-info.niu-5{
+    background-position: 0px -185px;
+}
+
+.poker-info .game-info.niu-6{
+    background-position: 0px -222px;
+}
+
+.poker-info .game-info.niu-7{
+    background-position: 0px -259px;
+}
+
+.poker-info .game-info.niu-8{
+    background-position: 0px -296px;
+}
+
+.poker-info .game-info.niu-9{
+    background-position: 0px -333px;
+}
+
+.poker-info .game-info.niu-10{
+    background-position: 0px -370px;
+}
+
+.poker-wrapper.mini {
+    width: 90px;
+    overflow: visible;
+}
+
+.poker-wrapper.mini .poker{
+    border-radius: 6px;
+    box-shadow: -1px 1px 4px rgba(55,55,55,0.5);
+    width: 25px;
+    height: 34px;
+}
+
+.poker-wrapper.mini .poker:not(:first-child){
+    margin-left: -8px;
+}
+
+
+.poker-wrapper .poker.type-1.card-1{
+    background-position-x: calc(100% / 3 * 0);
+    background-position-y: calc(100% / 12 * 0);
+}
+
+.poker-wrapper .poker.type-1.card-2{
+    background-position-x: calc(100% / 3 * 0);
+    background-position-y: calc(100% / 12 * 1);
+}
+
+.poker-wrapper .poker.type-1.card-3{
+    background-position-x: calc(100% / 3 * 0);
+    background-position-y: calc(100% / 12 * 2);
+}
+
+.poker-wrapper .poker.type-1.card-4{
+    background-position-x: calc(100% / 3 * 0);
+    background-position-y: calc(100% / 12 * 3);
+}
+
+.poker-wrapper .poker.type-1.card-5{
+    background-position-x: calc(100% / 3 * 0);
+    background-position-y: calc(100% / 12 * 4);
+}
+
+.poker-wrapper .poker.type-1.card-6{
+    background-position-x: calc(100% / 3 * 0);
+    background-position-y: calc(100% / 12 * 5);
+}
+
+.poker-wrapper .poker.type-1.card-7{
+    background-position-x: calc(100% / 3 * 0);
+    background-position-y: calc(100% / 12 * 6);
+}
+
+.poker-wrapper .poker.type-1.card-8{
+    background-position-x: calc(100% / 3 * 0);
+    background-position-y: calc(100% / 12 * 7);
+}
+
+.poker-wrapper .poker.type-1.card-9{
+    background-position-x: calc(100% / 3 * 0);
+    background-position-y: calc(100% / 12 * 8);
+}
+
+.poker-wrapper .poker.type-1.card-10,
+.poker-wrapper .poker.type-1.card-11,
+.poker-wrapper .poker.type-1.card-12,
+.poker-wrapper .poker.type-1.card-13
+{
+    background-position-x: calc(100% / 3 * 0);
+    background-position-y: calc(100% / 12 * 9);
+}
+
+.poker-wrapper .poker.type-2.card-1{
+    background-position-x: calc(100% / 3 * 1);
+    background-position-y: calc(100% / 12 * 0);
+}
+
+.poker-wrapper .poker.type-2.card-2{
+    background-position-x: calc(100% / 3 * 1);
+    background-position-y: calc(100% / 12 * 1);
+}
+
+.poker-wrapper .poker.type-2.card-3{
+    background-position-x: calc(100% / 3 * 1);
+    background-position-y: calc(100% / 12 * 2);
+}
+
+.poker-wrapper .poker.type-2.card-4{
+    background-position-x: calc(100% / 3 * 1);
+    background-position-y: calc(100% / 12 * 3);
+}
+
+.poker-wrapper .poker.type-2.card-5{
+    background-position-x: calc(100% / 3 * 1);
+    background-position-y: calc(100% / 12 * 4);
+}
+
+.poker-wrapper .poker.type-2.card-6{
+    background-position-x: calc(100% / 3 * 1);
+    background-position-y: calc(100% / 12 * 5);
+}
+
+.poker-wrapper .poker.type-2.card-7{
+    background-position-x: calc(100% / 3 * 1);
+    background-position-y: calc(100% / 12 * 6);
+}
+
+.poker-wrapper .poker.type-2.card-8{
+    background-position-x: calc(100% / 3 * 1);
+    background-position-y: calc(100% / 12 * 7);
+}
+
+.poker-wrapper .poker.type-2.card-9{
+    background-position-x: calc(100% / 3 * 1);
+    background-position-y: calc(100% / 12 * 8);
+}
+
+.poker-wrapper .poker.type-2.card-10,
+.poker-wrapper .poker.type-2.card-11,
+.poker-wrapper .poker.type-2.card-12,
+.poker-wrapper .poker.type-2.card-13
+{
+    background-position-x: calc(100% / 3 * 1);
+    background-position-y: calc(100% / 12 * 9);
+}
+
+
+.poker-wrapper .poker.type-3.card-1{
+    background-position-x: calc(100% / 3 * 2);
+    background-position-y: calc(100% / 12 * 0);
+}
+
+.poker-wrapper .poker.type-3.card-2{
+    background-position-x: calc(100% / 3 * 2);
+    background-position-y: calc(100% / 12 * 1);
+}
+
+.poker-wrapper .poker.type-3.card-3{
+    background-position-x: calc(100% / 3 * 2);
+    background-position-y: calc(100% / 12 * 2);
+}
+
+.poker-wrapper .poker.type-3.card-4{
+    background-position-x: calc(100% / 3 * 2);
+    background-position-y: calc(100% / 12 * 3);
+}
+
+.poker-wrapper .poker.type-3.card-5{
+    background-position-x: calc(100% / 3 * 2);
+    background-position-y: calc(100% / 12 * 4);
+}
+
+.poker-wrapper .poker.type-3.card-6{
+    background-position-x: calc(100% / 3 * 2);
+    background-position-y: calc(100% / 12 * 5);
+}
+
+.poker-wrapper .poker.type-3.card-7{
+    background-position-x: calc(100% / 3 * 2);
+    background-position-y: calc(100% / 12 * 6);
+}
+
+.poker-wrapper .poker.type-3.card-8{
+    background-position-x: calc(100% / 3 * 2);
+    background-position-y: calc(100% / 12 * 7);
+}
+
+.poker-wrapper .poker.type-3.card-9{
+    background-position-x: calc(100% / 3 * 2);
+    background-position-y: calc(100% / 12 * 8);
+}
+
+.poker-wrapper .poker.type-3.card-10,
+.poker-wrapper .poker.type-3.card-11,
+.poker-wrapper .poker.type-3.card-12,
+.poker-wrapper .poker.type-3.card-13
+{
+    background-position-x: calc(100% / 3 * 2);
+    background-position-y: calc(100% / 12 * 9);
+}
+
+.poker-wrapper .poker.type-4.card-1{
+    background-position-x: calc(100% / 3 * 3);
+    background-position-y: calc(100% / 12 * 0);
+}
+
+.poker-wrapper .poker.type-4.card-2{
+    background-position-x: calc(100% / 3 * 3);
+    background-position-y: calc(100% / 12 * 1);
+}
+
+.poker-wrapper .poker.type-4.card-3{
+    background-position-x: calc(100% / 3 * 3);
+    background-position-y: calc(100% / 12 * 2);
+}
+
+.poker-wrapper .poker.type-4.card-4{
+    background-position-x: calc(100% / 3 * 3);
+    background-position-y: calc(100% / 12 * 3);
+}
+
+.poker-wrapper .poker.type-4.card-5{
+    background-position-x: calc(100% / 3 * 3);
+    background-position-y: calc(100% / 12 * 4);
+}
+
+.poker-wrapper .poker.type-4.card-6{
+    background-position-x: calc(100% / 3 * 3);
+    background-position-y: calc(100% / 12 * 5);
+}
+
+.poker-wrapper .poker.type-4.card-7{
+    background-position-x: calc(100% / 3 * 3);
+    background-position-y: calc(100% / 12 * 6);
+}
+
+.poker-wrapper .poker.type-4.card-8{
+    background-position-x: calc(100% / 3 * 3);
+    background-position-y: calc(100% / 12 * 7);
+}
+
+.poker-wrapper .poker.type-4.card-9{
+    background-position-x: calc(100% / 3 * 3);
+    background-position-y: calc(100% / 12 * 8);
+}
+
+.poker-wrapper .poker.type-4.card-10,
+.poker-wrapper .poker.type-4.card-11,
+.poker-wrapper .poker.type-4.card-12,
+.poker-wrapper .poker.type-4.card-13
+{
+    background-position-x: calc(100% / 3 * 3);
+    background-position-y: calc(100% / 12 * 9);
+}
+
+@-webkit-keyframes bounceIn {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.9, 0.9, 0.9);
+        transform: scale3d(0.9, 0.9, 0.9);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        -webkit-transform: scale3d(0.97, 0.97, 0.97);
+        transform: scale3d(0.97, 0.97, 0.97);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes bounceIn {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.9, 0.9, 0.9);
+        transform: scale3d(0.9, 0.9, 0.9);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        -webkit-transform: scale3d(0.97, 0.97, 0.97);
+        transform: scale3d(0.97, 0.97, 0.97);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.oddsDetail{
+	background-color: #2e69a9;
+	border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+    float: right;
+    margin: 5px;
+}

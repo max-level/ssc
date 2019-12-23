@@ -1,0 +1,99 @@
+	.ftable{
+		width: 100%;
+		border-collapse: collapse;
+		text-align: center;
+		color:white;
+	}
+	.ftable span{
+		color:white;
+	}
+	.ftd{
+		border: 2px #b5b6b6 solid;
+	}
+	.jal{
+		background-color:#333301
+	}
+	.lan{
+		background-color:#7D7D00
+	}
+	.fan span{
+		color:rgb(68, 30, 11);
+	}
+	.dan{
+		background-color:#979700;
+		border:1px #7D7D00 solid;
+	}
+	.playn{
+		color:red;
+		font-size:12pt;
+	}
+	.fspan{
+		vertical-align:bottom;
+		display:inline-block;
+		height:28px;
+		width:28px;
+	}
+	
+	.longcolordownhig{
+		background: #2F2A24
+		background: -webkit-linear-gradient(linear, left top, left bottom, from(#625238),to(#2F2A24));
+		background: -o-linear-gradient(top,#625238,#2F2A24);
+		background: -moz-linear-gradient(top,#625238,#2F2A24);
+		background: linear-gradient(#625238,#2F2A24);
+		filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#625238', endColorstr='#2F2A24'); 
+		color:white;
+		text-align:center;
+	}
+	.longcolordownlow{
+		background: #2F2A24
+		background: -webkit-linear-gradient(linear,left top,left bottom,from(#2F2A24),to(#625238));
+		background: -o-linear-gradient(top,#2F2A24,#625238);
+		background: -moz-linear-gradient(top,#2F2A24,#625238);
+		background: linear-gradient(#2F2A24,#625238);
+		filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#2F2A24', endColorstr='#625238'); 
+		color:white;
+	}
+	.longcolormid{
+		background-color:#0A0A0A;
+		color:white;
+		text-align:center;
+	}
+	.longcolortop1{
+		background-color:#0A0A0A;
+		color:black;
+		text-align:center;
+	}
+	.longcolortop2{
+		text-align:center;
+		background-color:#0A0A0A;
+		color:white;
+		text-align:center;
+	}
+	.AllAns{
+		width:28 px;
+		height:28px;
+		background-size:26px;
+		background-position: center;
+		background-repeat:no-repeat;
+		color:rgb(68, 30, 11);
+		text-shadow:-1px -1px 1px #FFFFFF, 1px 1px 1px #FFFFFF, -1px 1px 1px #FFFFFF, 1px -1px 1px #FFFFFF;
+		text-align:center;
+		border: 2px solid #09EC8B;
+	}
+	
+	span[id^=r]{
+		color:rgb(68, 30, 11);
+		text-shadow:-1px -1px 1px #FFFFFF, 1px 1px 1px #FFFFFF, -1px 1px 1px #FFFFFF, 1px -1px 1px #FFFFFF;
+	
+	}
+	mag{
+		position:absolute;
+	}
+	.Man_Conter {
+	width:100%;
+	border-collapse:collapse;
+	text-align:center;
+}
+.Man_Conter td, th {
+	border:1px #E9BA84 solid;
+}
