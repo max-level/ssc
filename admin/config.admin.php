@@ -6,8 +6,8 @@ $conf['debug']['level']=5;
 $conf['db']['dsn']='mysql:host=127.0.0.1;dbname=php85com';
 $conf['host']='127.0.0.1';
 $conf['port']='3306';
-$conf['db']['user']='root';
-$conf['db']['password']='123456';
+$conf['db']['user']='php58com';
+$conf['db']['password']='g2991300';
 $conf['db']['charset']='utf8';
 $conf['db']['prename']='ssc_';
 
